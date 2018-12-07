@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceAnalyzer", "SentenceAnalyzer\SentenceAnalyzer.csproj", "{0279C552-0F63-4070-AEAC-F240E8C5B717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceAnalyzer.Tests", "SentenceAnalyzer.Tests\SentenceAnalyzer.Tests.csproj", "{2E1ADAB4-9D5B-482A-BE09-19AB546684C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0279C552-0F63-4070-AEAC-F240E8C5B717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0279C552-0F63-4070-AEAC-F240E8C5B717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0279C552-0F63-4070-AEAC-F240E8C5B717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0279C552-0F63-4070-AEAC-F240E8C5B717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1ADAB4-9D5B-482A-BE09-19AB546684C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1ADAB4-9D5B-482A-BE09-19AB546684C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1ADAB4-9D5B-482A-BE09-19AB546684C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1ADAB4-9D5B-482A-BE09-19AB546684C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BBFAD3B-E7FB-4689-BFDE-90F713F3484F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Window x:Class="SentenceAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sentence Analyzer" Height="650" Width="800">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="20">
+
+        <Label Content="Sentence:"/>
+        <TextBox Name="SentenceTextBox"
+                 TextWrapping="Wrap" Height="100" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Grid Height="30"/>
+
+        <Button Content="Count words" Height="30" Click="CountWordsExecute"/>
+        <Grid Height="30"/>
+
+        <Label Content="Result:"/>
+        <TextBox Name="ResultTextBox"
+                 TextWrapping="Wrap" Height="300" 
+                 IsReadOnly="True" Background="#EEEEEE"
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+    </StackPanel>
+</Window>
